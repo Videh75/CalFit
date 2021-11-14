@@ -60,3 +60,13 @@ Start the client server
 ```bash
   npm start
 ```
+## Screenshots
+
+![App Screenshot](https://github.com/Videh75/CalorieTracker_RNSIT-Hack/blob/master/screenshots/Screenshot%20(433).png)
+![App Screenshot](https://github.com/Videh75/CalorieTracker_RNSIT-Hack/blob/master/screenshots/Screenshot%20(434).png)
+![App Screenshot](https://github.com/Videh75/CalorieTracker_RNSIT-Hack/blob/master/screenshots/Screenshot%20(435).png)
+![App Screenshot](https://github.com/Videh75/CalorieTracker_RNSIT-Hack/blob/master/screenshots/Screenshot%20(436).png)
+![App Screenshot](https://github.com/Videh75/CalorieTracker_RNSIT-Hack/blob/master/screenshots/Screenshot%20(437).png)
+![App Screenshot](https://github.com/Videh75/CalorieTracker_RNSIT-Hack/blob/master/screenshots/Screenshot%20(438).png)
+
+
