@@ -24,3 +24,39 @@ Api : edamam food database Api
 
     1. Faced difficulty in integrating api in our app.
  
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Videh75/CalorieTracker_RNSIT-Hack
+```
+
+Go to the project directory
+
+Install dependencies
+
+```bash
+  npm install
+```
+Start the server
+
+```bash
+  npm start
+```
+
+```bash
+  cd client
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the client server
+
+```bash
+  npm start
+```
