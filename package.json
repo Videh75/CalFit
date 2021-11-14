@@ -1,0 +1,39 @@
+{
+  "name": "calorie-counter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "SET NODE_ENV=production &node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "client:install": "npm install --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "postinstall": "(cd client && yarn);",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "Tariq Lamin Guesri",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-validator": "^6.12.0",
+    "imgur": "^1.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mkdirp": "^1.0.4",
+    "mongoose": "^5.12.13",
+    "morgan": "^1.10.0",
+    "sass": "^1.34.0",
+    "sharp": "^0.28.3"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.2",
+    "eslint": "^7.27.0",
+    "eslint-plugin-react": "^7.23.2"
+  }
+}
