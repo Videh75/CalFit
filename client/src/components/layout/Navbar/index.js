@@ -14,7 +14,7 @@ const Navbar = ({ user, isAuthenticated, logout }) => {
     <nav className="navbar navbar-expand-lg navbar-light navbar-static-top">
       <div className="container-fluid box">
         <NavLink className="navbar-brand" to="/">
-          CalorieCounter
+          CalFit
         </NavLink>
         <button
           className="navbar-toggler btn-circle"

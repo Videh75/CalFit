@@ -1,1 +1,1 @@
-export const WEBSITE_NAME = 'CalorieCounter';
+export const WEBSITE_NAME = 'CalFit';

@@ -1,6 +1,10 @@
 @import 'config';
 @import 'utilities';
 
+
+::-webkit-scrollbar {
+  display: none;
+}
 /* Hero Start */
 
 .jumbotron {

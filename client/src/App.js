@@ -15,8 +15,8 @@ import setAuthToken from 'src/utils/setAuthToken';
 import { loadUser, logout } from 'src/actions/auth';
 import 'src/styles/App.scss';
 
-// Setting Axios' base settings
-// axios.defaults.baseURL = 'http://localhost:5000/rest';
+
+
 axios.defaults.baseURL = 'https://g-calorie-counter.herokuapp.com/rest';
 axios.defaults.headers.post['Content-Type'] = 'application/json';
 
