@@ -1,7 +1,7 @@
 const dummyFeatures = [
   {
     title: 'Consumption',
-    icon: 'fa-list',
+    icon: 'fa-tasks',
     description:
       'You can use your consumption list to get the count of how many calories you had during your day test',
   },
