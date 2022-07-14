@@ -32,6 +32,9 @@
     "sass": "^1.34.0",
     "sharp": "^0.28.3"
   },
+  "engines": {
+    "npm": "6.14.17"
+  },
   "devDependencies": {
     "concurrently": "^6.0.2",
     "eslint": "^7.27.0",
